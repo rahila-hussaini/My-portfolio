@@ -93,10 +93,12 @@
 
 #info{
   margin-bottom: 60px;
+  text-align: justify;
 }
 
 .title-2, .self-info-2{
   margin-left: 15px;
+  text-align: justify;
 }
 
 /* work style*/
