@@ -1,0 +1,238 @@
+.pro-pic{
+  width: 300px;
+  height: 450px;
+  border-radius: 60%;
+  overflow: hidden;
+  border: 1px solid #302f2f;
+  margin: 60px 100px;
+  float: right;  
+}
+
+.pro-pic img{
+  height: 100%;
+  width: 100%;
+}
+
+.text{
+  margin-top: -30rem;
+  margin-left: 6rem;
+  float: left;
+}
+
+.text h5 .adj{
+  color: #7e25d1;
+  font-size: 18px;
+}
+.text h1{
+  color: #7e25d1;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.and{
+  text-align: center;
+  margin-left: -20px;
+}
+
+.btn-group, .social i{
+  margin: 23rem 0 0 6rem;
+}
+
+.btn-group .btn{
+  border-radius: #d5d5d5;
+  /*color: #fff;*/
+  color: #777272;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 30px;
+  gap: 5px;
+  border: 2.5px solid;
+}
+
+.btn-group .active{
+  border-color: #7e25d1;
+}
+
+.btn-group .btn:hover{
+  border-color: #a855f7;
+}
+
+.social i{
+  gap: 100px;
+  /*color: #e5e5e5;*/
+  color: #777272;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.social i:hover{
+  color: #7e25d1;
+}
+
+/* About me style*/
+#About{
+  width: 100%;
+  overflow: hidden;
+}
+#about-me, .work, .connect{
+  text-align: center;
+  color: #7e25d1;
+  margin: 50px 0 40px 0;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.img{
+  width: 300px;
+  height: 380px;
+  border-radius: 7%;
+  border: 0.5px solid #302f2f;
+  margin: 0  40px 40px 20px;
+  float: left;
+}
+
+#info{
+  margin-bottom: 60px;
+}
+
+.title-2, .self-info-2{
+  margin-left: 15px;
+}
+
+/* work style*/
+.work-owerveiw{
+  text-align: center;
+  padding: 0 70px 0 70px;
+  margin: -15px 0 60px 0;
+}
+.all-projects{
+  align-items:  center;
+}
+.work-pic{
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
+
+.work-shot-info{
+  font-size: 12px;
+}
+
+/*contact me style*/
+.connect{
+  margin-left: -5px;
+}
+.Contact-text1{
+  font-weight: 900;
+  font-size: 35px;
+}
+
+/*footter style*/
+footer  {
+  padding: 10px 25px;
+  margin-top: 45px;
+  background-color:rgba(153, 153, 153, 0.135);
+}
+
+footer p{
+  text-align: center;
+  color: grey;
+  margin-bottom: -5px;
+}
+
+footer .nav{
+  gap: 10px;
+}
+
+/*section responsive*/
+@media (max-width: 991px) {
+  .section-1{
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .text, .btn-group, .social i{
+    margin-left: 20px;
+  }
+  .pro-pic{
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  .section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .text {
+    margin-top: 0;
+    margin-left: 0;
+    float: none;
+  }
+  .pro-pic {
+    margin: 30px 0;
+    float: none;
+  }
+  .btn-group, .social {
+    margin: 20px 0;
+  }
+  .work-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .work-shot-info{
+    max-width: 500px;
+  }
+  #conaction{
+    margin-left: 30px;
+  }
+  ul{
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 530px) {
+  .section-1 {
+    padding: 10px;
+  }
+  .pro-pic {
+    width: 200px;
+    height: 300px;
+  }
+  .text h1 {
+    font-size: 1.8rem;
+  }
+  .btn-group {
+    width: 100%;
+  }
+  .btn-group .btn {
+    width: 80%;
+    text-align: center;
+  }
+  .social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 483px) {
+  #pic-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img{
+    margin: 0 50px 30px 50px;
+  }
+  #info{
+    max-width: 700px;
+    margin-right: 10px;
+  }
+  .title-2, .self-info-2{
+    margin-left: 5px;
+  }
+}
